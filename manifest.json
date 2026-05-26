@@ -1,0 +1,21 @@
+{
+  "theme_color": "#326d95",
+  "background_color": "#eef5f7",
+  "display": "browser",
+  "name": "Gaseosa Labs",
+  "short_name": "Gaseosa Labs",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

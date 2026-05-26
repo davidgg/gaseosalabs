@@ -2,45 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gaseosa Labs</title>
+    <meta
+      name="description"
+      content="Small apps, guides, and web experiments by David GG."
+    />
+    <link rel="icon" href="/img/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="/img/favicon-32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://gaseosalabs.com/" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
-    <main>
-      <h1>Gaseosa Labs</h1>
+    <a class="skip-link" href="#content">Skip to content</a>
 
-      <p>
-        This is just an index of projects that I've been coding in my free time.
-        Projects to practice and test new skills :) .
-      </p>
+    <main id="content" class="page" tabindex="-1">
+      <header class="site-header">
+        <h1>Gaseosa Labs</h1>
+        <p class="lead">
+          A small index of projects I've been coding in my free time to
+          practice, test ideas, and keep learning.
+        </p>
+      </header>
 
-      <nav>
-        <ul>
+      <section class="feature-section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <p>Useful, curious, and occasionally very specific things.</p>
+
+        <ul class="link-list">
           <li>
-            <a href="http://cambioapellidos.gaseosalabs.com"
-              >Cambio de Apellidos en España</a
-            >. A how-to to change your surname in Spain. Built with Github Pages
-            and Jekyll.
+            <a
+              href="https://cambioapellidos.gaseosalabs.com/"
+              aria-describedby="cambioapellidos-description"
+              lang="es"
+            >
+              Cambio de Apellidos en España
+            </a>
+            <span id="cambioapellidos-description">
+              A how-to to change your surname in Spain · GitHub Pages and Jekyll
+            </span>
           </li>
           <li>
             <a
-              href="http://file-image-base64-converterconverter.gaseosalabs.com"
-              >file-image-base64-converter Converter</a
-            >. A React tool to convert files and text from/to
-            file-image-base64-converter.
-          </li>
-          <li>
-            <a href="http://mejorandroid.gaseosalabs.com">mejorandroid</a>. A
-            React page to show a simple grid with the best phones.
+              href="https://file-image-base64-converter.gaseosalabs.com/"
+              aria-describedby="base64-description"
+            >
+              File Image Base64 Converter
+            </a>
+            <span id="base64-description">
+              A tool to convert files and text from/to Base64
+            </span>
           </li>
         </ul>
-      </nav>
+      </section>
     </main>
 
-    <footer>
-      © 2019 <a href="http://davidgg.es">David GG.</a> All Rights Reserved
+    <footer class="site-footer">
+      <nav aria-label="Related links">
+        <a href="https://davidgg.es/">
+          davidgg.es
+        </a>
+      </nav>
+      <p>&copy; <span id="current-year">2026</span> David GG</p>
     </footer>
+
+    <script>
+      document.getElementById('current-year').textContent =
+        new Date().getFullYear();
+    </script>
   </body>
 </html>

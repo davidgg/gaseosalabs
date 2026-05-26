@@ -5,27 +5,20 @@
 
   <url>
     <loc>https://gaseosalabs.com/</loc>
-    <lastmod>2019-02-03T17:26:49+00:00</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://cambioapellidos.gaseosalabs.com/</loc>
-    <lastmod>2019-02-03T17:26:49+00:00</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://file-image-base64-converterconverter.gaseosalabs.com/</loc>
-    <lastmod>2019-02-03T17:26:49+00:00</lastmod>
+    <loc>https://file-image-base64-converter.gaseosalabs.com/</loc>
+    <lastmod>2026-05-26</lastmod>
     <priority>0.80</priority>
   </url>
-
-  <url>
-    <loc>https://mejorandroid.gaseosalabs.com/</loc>
-    <lastmod>2019-02-03T17:26:49+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-
 
 </urlset>
